@@ -6,8 +6,6 @@
 This app shows the user a fun questions, and when they tap on it they see a response.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
 
 <img src="https://github.com/samuelsandoval1/FlashcardApp/raw/main/App_Walkthroughs/lab1.gif" width=200><br>
 
