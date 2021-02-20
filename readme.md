@@ -1,4 +1,4 @@
-## FlashCard
+## FlashCard App
 
 ## Lab 1
 
