@@ -45,6 +45,15 @@
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2O-0n-omo">
+                                        <rect key="frame" x="209" y="110" width="34" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="✏️"/>
+                                        <connections>
+                                            <segue destination="zGa-cO-8im" kind="presentation" identifier="EditSegue" id="l5A-Oq-fIC"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <gestureRecognizers/>
@@ -121,6 +130,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zGa-cO-8im" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="osG-fX-tEa"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Re-qp-9we">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -135,6 +145,9 @@
             <point key="canvasLocation" x="2123" y="116"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="l5A-Oq-fIC"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

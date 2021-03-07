@@ -18,7 +18,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapOnFlashcard(_ sender: Any) {
-        frontLabel.isHidden = true
+        if frontLabel.isHidden == false {
+            frontLabel.isHidden = true
+        }
+        else{
+            frontLabel.isHidden = false
+        }
     }
     func updateFlashcard(question: String, answer: String){
         frontLabel.text = question
@@ -29,6 +34,11 @@ class ViewController: UIViewController {
         let navigationController = segue.destination as! UINavigationController
         let creationController = navigationController.topViewController as! CreationViewController
         creationController.flashcardController = self
+        
+        if segue.identifier == "EditSegue" {
+            creationController.initalQuestion = frontLabel.text
+            creationController.initialAnswer = backLabel.text
+        }
     }
 }
 
