@@ -1,4 +1,4 @@
-# Flashcard App
+# Flashcard App 📑
 
 ## Lab 4
 
