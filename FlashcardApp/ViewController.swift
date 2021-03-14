@@ -37,6 +37,28 @@ class ViewController: UIViewController {
             updateLabels()
             updateNextPrevButtons()
         }
+        card.layer.cornerRadius = 20.0
+        frontLabel.layer.cornerRadius = 20.0
+        frontLabel.clipsToBounds = true
+        backLabel.layer.cornerRadius = 20.0
+        backLabel.clipsToBounds = true
+        card.layer.shadowRadius = 15.0
+        card.layer.shadowOpacity = 0.2
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // First start with the flashcard invisible and slightly smaller in size
+        card.alpha = 0.0
+            
+        // Animation
+        UIView.animate(withDuration: 0.6, delay: 0.5, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
+            self.card.alpha = 1.0
+                  
+            self.card.transform = CGAffineTransform.identity
+              
+        })
     }
 
     @IBAction func didTapOnFlashcard(_ sender: Any) {
