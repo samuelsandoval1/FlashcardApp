@@ -19,6 +19,6 @@ This app shows the user a fun questions, and when they tap on it they see a resp
 - [x] User should see a slide animation when going to the next flashcard
 - [x] User should see a slide animation when going to the previous flashcard
 ## Optional
-- [x] User should see a nicer flashchard with rounded corners, shadows, and animating when showing the first time
-- [x] User should see all views properly layout when using the app on a phone of different sizes
+- [ ] User should see a nicer flashcard with rounded corners, shadows, and animating when showing the first time
+- [ ] User should see all views properly layout when using the app on a phone of different sizes
 - [ ] Correct answer in multiple choice should be random
