@@ -1,23 +1,24 @@
 ## Flashcard App
 
-## Lab 3
+## Lab 4
 
 ### App Description
 This app shows the user a fun questions, and when they tap on it they see a response.
 
 ### App Walk-though
 
-<img src="https://github.com/samuelsandoval1/FlashcardApp/raw/main/App_Walkthroughs/lab3.gif" width=200><br>
+<img src="https://github.com/samuelsandoval1/FlashcardApp/raw/main/App_Walkthroughs/lab4.gif" width=200><br>
 
 
 
 
 ## Required
-- [x] User can browse through multiple flashcards
-- [x] User can re-open the app and see previously created flashcards
-- [x] Push code to GitHub
+- [x] User should see the app icon 
+- [x] User should see a splash screen
+- [x] User should see an flip animation when revealing the answer
+- [x] User should see a slide animation when going to the next flashcard
+- [x] User should see a slide animation when going to the previous flashcard
 ## Optional
-- [x] User can delete a flashcard
-- [x] User can edit existing flashcard
-- [ ] User can store multiple choice questions
-
+- [x] User should see a nicer flashchard with rounded corners, shadows, and animating when showing the first time
+- [x] User should see all views properly layout when using the app on a phone of different sizes
+- [ ] Correct answer in multiple choice should be random
